@@ -2,7 +2,7 @@
 
 ### R
 ### OpenCPU
-### ROSE
+### https://gitpitch.com/user/repo/branch
 
 #HSLIDE
 

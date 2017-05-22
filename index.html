@@ -23,10 +23,6 @@
         <!-- iOS Safari -->
         <meta name="apple-mobile-web-app-status-bar-style" content="#009688">
 
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--Import materialize.css-->
-        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
         <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
         <!--Font-awesome-->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -34,98 +30,65 @@
     </head>
 
     <body>
-        <div class="container">
-            <div class="row">
-                <div class="col s12">
-                    <br class="hide-on-small-only"/>
-                    <br class="hide-on-small-only"/>
-                    <br/>
-                    <div class="col s12 m6 offset-m3 l6 offset-l3 ">
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator responsive-img avatar" src="https://avatars1.githubusercontent.com/u/4492981">
-                            </div>
+        <aside class="profile-card">
 
-                            <div class="card-action">
-                                <span class="card-title activator grey-text text-darken-4">
-                                    LUÍS RIBEIRO                                     
-                                    <i class="material-icons right">more_vert</i>
-                                    <br/>
-                                    <small class="hide-on-small-only">Web Developer and Project Manager in Porto, Portugal</small>
-                                </span>
-                                <p class="teal-text">
-                                    <a href="mailto:luis.mribeiro@sapo.pt">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-at fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                    <a href="https://twitter.com/_l_ribeiro" target="new">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                    <a href="https://facebook.com/lmmribeiro" target="new">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                    <a href="https://pt.linkedin.com/in/luismribeiro" target="new">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                    <a href="https://github.com/lmribeiro" target="new">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                </p>
-                            </div>
+            <header>
 
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">
-                                    LUÍS RIBEIRO
-                                    <i class="material-icons right">close</i>
-                                </span>
-                                <p style="text-align: justify;">
-                                    Hi, I’m Luís. I’m a web developer living in Porto, Portugal. I am a fan of web development, programming, and technology. I’m also interested in music, coffee and food. You can see some of my work by visit my company website with a click on the buttons below.
-                                    <br/>
-                                </p>
-                                <p class="blue-grey-text" >
-                                    <span>#webdevelopment</span>
-                                    <span>#programming</span>
-                                    <span>#music</span>
-                                    <span>#coffee</span>
-                                    <span>#food</span>
-                                </p>
-                                <p>
-                                    <a href="https://www.eddmi.com" class="waves-effect waves-light btn" target="new">
-                                        EDDMI
-                                    </a>
-                                    <a href="https://www.linkya.pt" class="waves-effect waves-light btn" target="new">
-                                        LINKYA
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="center">
-                            <a href="https://js.org" target="_blank">
-                                <img src="https://logo.js.org/dark_tiny.png" width="77" alt="JS.ORG Logo"/>
-                            </a>
-                        </p>
-                    </div>
-                </div>
+                <!-- here’s the avatar -->
+                <a href="https://github.com/lmribeiro">
+                    <img src="https://avatars1.githubusercontent.com/u/4492981" />
+                </a>
+
+                <!-- the username -->
+                <h1>Luís Ribeiro</h1>
+
+                <!-- and role or location -->
+                <h2>Web Developer & Project Manager</h2>
+
+            </header>
+
+            <!-- bit of a bio; who are you? -->
+            <div class="profile-bio">
+
+                <p>
+                    Hi, I’m Luís. I’m a web developer living in Porto, Portugal. I am a fan of web development, programming, and technology. I’m also interested in music, coffee and food. You can see some of my work by visit my company website with a click on the buttons below.
+                </p>
+                <p class="company">
+                    <a href="https://www.eddmi.com" class="button">
+                        EDDMI
+                    </a>
+                    <a href="https://www.linkya.pt" class="button">
+                        LINKYA
+                    </a>
+                </p>
             </div>
-        </div>
 
-        <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
+            <!-- some social links to show off -->
+            <ul class="profile-social-links">
+                <li>
+                    <a href="mailto:luis.mribeiro@sapo.pt">
+                        <i class="fa fa-at fa-lg"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/_l_ribeiro">
+                        <i class="fa fa-twitter fa-lg"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://facebook.com/lmmribeiro">
+                        <i class="fa fa-facebook fa-lg"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://pt.linkedin.com/in/luismribeiro">
+                        <i class="fa fa-linkedin fa-lg"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </aside>
+
         <script>
             (function (i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
