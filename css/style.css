@@ -2,7 +2,7 @@ html {
     height: 100%;
 }
 body {
-    background: #009688 url("https://source.unsplash.com/category/technology") no-repeat center center fixed;
+    background: #009688 url("../bg.jpg") no-repeat center center fixed;
     background-size: cover;
     position: fixed;
     padding: 0px;
