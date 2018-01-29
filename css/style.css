@@ -278,7 +278,8 @@ p {
     .profile-social-links {
         width: 100%;       
         display: block;
-        float: none; 
+        float: none;
+        margin-left: 23%;
     }
 }
 @media screen and (min-aspect-ratio: 4/3) {
