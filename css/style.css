@@ -89,8 +89,7 @@ p {
 }
 .profile-card header a:after {
     position: absolute;
-    font-family: "Fontawesome";
-    content: "\f09b";
+    content: url('github.svg');
     bottom: 1px;
     right: 3px;
     width: 20px;
@@ -150,15 +149,12 @@ p {
     -webkit-animation: moveIn 1s 3.1s ease forwards;
     animation: moveIn 1s 3.1s ease forwards;
 }
-.profile-social-links li {
-    list-style: none;
+.profile-social-links a {
     margin: -5px 0px 0px 0px;
     padding: 0px;
-    float: left;
-    width: 25%;
+    float: none;
+    width: 10%;
     text-align: center;
-}
-.profile-social-links li a {
     display: inline-block;
     color: #009688;
     width: 24px;
@@ -166,14 +162,12 @@ p {
     padding: 6px;
     position: relative;
     overflow: hidden!important;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
 }
-.profile-social-links li a img {
+.profile-social-links  a img {
     position: relative;
     z-index: 1;
 }
-.profile-social-links li a:before {
+.profile-social-links a:before {
     display: block;
     content: "";
     background: #009688;
@@ -190,12 +184,12 @@ p {
     -webkit-border-radius: 50%;
     border-radius: 50%;
 }
-.profile-social-links li a:hover:before {
+.profile-social-links a:hover:before {
     -webkit-animation: ripple 1s ease forwards;
     animation: ripple 1s ease forwards;
 }
-.profile-social-links li a img,
-.profile-social-links li a svg {
+.profile-social-links a img,
+.profile-social-links a svg {
     width: 24px;
 }
 
@@ -278,8 +272,6 @@ p {
     .profile-social-links {
         width: 100%;       
         display: block;
-        float: none;
-        margin-left: 23%;
     }
 }
 @media screen and (min-aspect-ratio: 4/3) {
