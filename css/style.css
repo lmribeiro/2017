@@ -181,8 +181,6 @@ p {
     transition: transform 0.4s ease, opacity 1s ease-out;
     -webkit-transform: scale3d(0, 0, 1);
     transform: scale3d(0, 0, 1);
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
 }
 .profile-social-links a:hover:before {
     -webkit-animation: ripple 1s ease forwards;
