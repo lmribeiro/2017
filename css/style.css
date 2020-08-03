@@ -2,7 +2,7 @@ html {
     height: 100%;
 }
 body {
-    background: #009688 url("../bg.jpg") no-repeat center center fixed;
+    background: #3fb7eb url("../bg.jpg") no-repeat center center fixed;
     background-size: cover;
     position: fixed;
     padding: 0px;
@@ -43,7 +43,7 @@ p {
     margin: 0px;
 }
 .profile-card {
-    background: #009688;
+    background: #3fb7eb;
     width: 200px;
     height: 100px;
     position: absolute;
@@ -78,11 +78,11 @@ p {
     animation: moveIn 1s 3.1s ease forwards;
 }
 .profile-card header h1 {
-    color: #009688;
+    color: #3fb7eb;
 }
 .profile-card header a {
     display: inline-block;
-    color: #009688;
+    color: #3fb7eb;
     text-align: center;
     position: relative;
     margin: 25px 30px;
@@ -156,7 +156,7 @@ p {
     width: 10%;
     text-align: center;
     display: inline-block;
-    color: #009688;
+    color: #3fb7eb;
     width: 24px;
     height: 24px;
     padding: 6px;
@@ -170,7 +170,7 @@ p {
 .profile-social-links a:before {
     display: block;
     content: "";
-    background: #009688;
+    background: #3fb7eb;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -197,7 +197,7 @@ p {
 }
 
 .button {
-    color: #009688;
+    color: #3fb7eb;
     border: 2px solid;
     padding: 6px 21px;
     margin: 5px;
@@ -207,8 +207,8 @@ p {
 }
 .button:hover {
     color: #fff;
-    border: 2px solid #009688;
-    background: #009688;
+    border: 2px solid #3fb7eb;
+    background: #3fb7eb;
     border-radius: 4px;
     -webkit-border-radius: 4px;
 }
